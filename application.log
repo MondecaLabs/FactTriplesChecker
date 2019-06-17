@@ -1,0 +1,625 @@
+2019-06-14 16:39:10,228 - matplotlib - DEBUG - $HOME=/home/mondeca
+2019-06-14 16:39:10,229 - matplotlib - DEBUG - CONFIGDIR=/home/mondeca/.config/matplotlib
+2019-06-14 16:39:10,229 - matplotlib - DEBUG - matplotlib data path: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/matplotlib/mpl-data
+2019-06-14 16:39:10,232 - matplotlib - DEBUG - loaded rc file /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/matplotlib/mpl-data/matplotlibrc
+2019-06-14 16:39:10,234 - matplotlib - DEBUG - matplotlib version 3.0.3
+2019-06-14 16:39:10,234 - matplotlib - DEBUG - interactive is False
+2019-06-14 16:39:10,234 - matplotlib - DEBUG - platform is linux
+2019-06-14 16:39:10,234 - matplotlib - DEBUG - loaded modules: ['builtins', 'sys', '_frozen_importlib', '_imp', '_warnings', '_thread', '_weakref', '_frozen_importlib_external', '_io', 'marshal', 'posix', 'zipimport', 'encodings', 'codecs', '_codecs', 'encodings.aliases', 'encodings.utf_8', '_signal', '__main__', 'encodings.latin_1', 'io', 'abc', '_weakrefset', '_bootlocale', '_locale', 'site', 'os', 'errno', 'stat', '_stat', 'posixpath', 'genericpath', 'os.path', '_collections_abc', '_sitebuiltins', 'sysconfig', '_sysconfigdata_m_linux_x86_64-linux-gnu', 'types', 'functools', '_functools', 'collections', 'operator', '_operator', 'keyword', 'heapq', '_heapq', 'itertools', 'reprlib', '_collections', 'weakref', 'collections.abc', 'importlib', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib.util', 'importlib.abc', 'importlib.machinery', 'contextlib', 'mpl_toolkits', 'google', 'sphinxcontrib', 'runpy', 'pkgutil', 'ipykernel', 'ipykernel._version', 'ipykernel.connect', '__future__', 'json', 'json.decoder', 're', 'enum', 'sre_compile', '_sre', 'sre_parse', 'sre_constants', 'copyreg', 'json.scanner', '_json', 'json.encoder', 'subprocess', 'time', 'signal', '_posixsubprocess', 'select', 'selectors', 'math', 'threading', 'traceback', 'linecache', 'tokenize', 'token', 'IPython', 'IPython.core', 'IPython.core.getipython', 'IPython.core.release', 'IPython.core.application', 'atexit', 'copy', 'glob', 'fnmatch', 'logging', 'string', '_string', 'shutil', 'zlib', 'bz2', '_compression', '_bz2', 'lzma', '_lzma', 'pwd', 'grp', 'traitlets', 'traitlets.traitlets', 'inspect', 'ast', '_ast', 'dis', 'opcode', '_opcode', 'six', 'struct', '_struct', 'traitlets.utils', 'traitlets.utils.getargspec', 'traitlets.utils.importstring', 'ipython_genutils', 'ipython_genutils._version', 'ipython_genutils.py3compat', 'ipython_genutils.encoding', 'locale', 'platform', 'traitlets.utils.sentinel', 'traitlets.utils.bunch', 'traitlets._version', 'traitlets.config', 'traitlets.config.application', 'decorator', 'traitlets.config.configurable', 'traitlets.config.loader', 'argparse', 'textwrap', 'gettext', 'ipython_genutils.path', 'random', 'hashlib', '_hashlib', '_blake2', '_sha3', 'bisect', '_bisect', '_random', 'ipython_genutils.text', 'ipython_genutils.importstring', 'IPython.core.crashhandler', 'pprint', 'IPython.core.ultratb', 'pydoc', 'urllib', 'urllib.parse', 'IPython.core.debugger', 'bdb', 'IPython.utils', 'IPython.utils.PyColorize', 'IPython.utils.coloransi', 'IPython.utils.ipstruct', 'IPython.utils.colorable', 'pygments', 'pygments.util', 'IPython.utils.py3compat', 'IPython.utils.encoding', 'IPython.core.excolors', 'IPython.testing', 'IPython.testing.skipdoctest', 'pdb', 'cmd', 'code', 'codeop', 'IPython.core.display_trap', 'IPython.utils.path', 'IPython.utils.process', 'IPython.utils._process_posix', 'pexpect', 'pexpect.exceptions', 'pexpect.utils', 'pexpect.expect', 'pexpect.pty_spawn', 'pty', 'tty', 'termios', 'ptyprocess', 'ptyprocess.ptyprocess', 'fcntl', 'resource', 'ptyprocess.util', 'pexpect.spawnbase', 'pexpect.run', 'IPython.utils._process_common', 'shlex', 'IPython.utils.decorators', 'IPython.utils.data', 'IPython.utils.terminal', 'IPython.utils.sysinfo', 'IPython.utils._sysinfo', 'IPython.core.profiledir', 'IPython.paths', 'tempfile', 'IPython.utils.importstring', 'IPython.terminal', 'IPython.terminal.embed', 'IPython.core.compilerop', 'IPython.core.magic_arguments', 'IPython.core.error', 'IPython.utils.text', 'pathlib', 'ntpath', 'IPython.core.magic', 'getopt', 'IPython.core.oinspect', 'IPython.core.page', 'IPython.core.display', 'binascii', 'mimetypes', 'IPython.lib', 'IPython.lib.security', 'getpass', 'IPython.lib.pretty', 'datetime', '_datetime', 'IPython.utils.openpy', 'IPython.utils.dir2', 'IPython.utils.wildcard', 'pygments.lexers', 'pygments.lexers._mapping', 'pygments.modeline', 'pygments.plugin', 'pygments.lexers.python', 'pygments.lexer', 'pygments.filter', 'pygments.filters', 'pygments.token', 'pygments.regexopt', 'pygments.unistring', 'pygments.formatters', 'pygments.formatters._mapping', 'pygments.formatters.html', 'pygments.formatter', 'pygments.styles', 'IPython.core.inputtransformer2', 'typing', 'typing.io', 'typing.re', 'IPython.core.interactiveshell', 'asyncio', 'asyncio.base_events', 'concurrent', 'concurrent.futures', 'concurrent.futures._base', 'concurrent.futures.process', 'queue', 'multiprocessing', 'multiprocessing.context', 'multiprocessing.process', 'multiprocessing.reduction', 'pickle', '_compat_pickle', '_pickle', 'socket', '_socket', 'array', '__mp_main__', 'multiprocessing.connection', '_multiprocessing', 'multiprocessing.util', 'concurrent.futures.thread', 'asyncio.compat', 'asyncio.coroutines', 'asyncio.constants', 'asyncio.events', 'asyncio.base_futures', 'asyncio.log', 'asyncio.futures', 'asyncio.base_tasks', '_asyncio', 'asyncio.tasks', 'asyncio.locks', 'asyncio.protocols', 'asyncio.queues', 'asyncio.streams', 'asyncio.subprocess', 'asyncio.transports', 'asyncio.unix_events', 'asyncio.base_subprocess', 'asyncio.selector_events', 'ssl', 'ipaddress', '_ssl', 'base64', 'asyncio.sslproto', 'pickleshare', 'IPython.core.prefilter', 'IPython.core.autocall', 'IPython.core.macro', 'IPython.core.splitinput', 'IPython.core.alias', 'IPython.core.builtin_trap', 'IPython.core.events', 'backcall', 'backcall.backcall', 'IPython.core.displayhook', 'IPython.core.displaypub', 'IPython.core.extensions', 'IPython.core.formatters', 'IPython.utils.sentinel', 'IPython.core.history', 'sqlite3', 'sqlite3.dbapi2', '_sqlite3', 'IPython.core.logger', 'IPython.core.payload', 'IPython.core.usage', 'IPython.display', 'IPython.lib.display', 'html', 'html.entities', 'IPython.utils.io', 'IPython.utils.capture', 'IPython.utils.strdispatch', 'IPython.core.hooks', 'IPython.utils.syspathcontext', 'IPython.utils.tempdir', 'IPython.utils.contexts', 'IPython.core.async_helpers', 'IPython.terminal.interactiveshell', 'prompt_toolkit', 'prompt_toolkit.application', 'prompt_toolkit.application.application', 'prompt_toolkit.buffer', 'prompt_toolkit.application.current', 'prompt_toolkit.eventloop', 'prompt_toolkit.eventloop.base', 'prompt_toolkit.log', 'prompt_toolkit.eventloop.coroutine', 'prompt_toolkit.eventloop.defaults', 'prompt_toolkit.utils', 'six.moves', 'wcwidth', 'wcwidth.wcwidth', 'wcwidth.table_wide', 'wcwidth.table_zero', 'prompt_toolkit.cache', 'prompt_toolkit.eventloop.future', 'prompt_toolkit.eventloop.context', 'prompt_toolkit.eventloop.async_generator', 'six.moves.queue', 'prompt_toolkit.eventloop.event', 'prompt_toolkit.application.run_in_terminal', 'prompt_toolkit.auto_suggest', 'prompt_toolkit.filters', 'prompt_toolkit.filters.base', 'prompt_toolkit.filters.app', 'prompt_toolkit.enums', 'prompt_toolkit.filters.utils', 'prompt_toolkit.filters.cli', 'prompt_toolkit.clipboard', 'prompt_toolkit.clipboard.base', 'prompt_toolkit.selection', 'prompt_toolkit.clipboard.in_memory', 'prompt_toolkit.completion', 'prompt_toolkit.completion.base', 'prompt_toolkit.completion.filesystem', 'prompt_toolkit.completion.word_completer', 'prompt_toolkit.completion.fuzzy_completer', 'prompt_toolkit.document', 'prompt_toolkit.history', 'prompt_toolkit.search', 'prompt_toolkit.key_binding', 'prompt_toolkit.key_binding.key_bindings', 'prompt_toolkit.keys', 'prompt_toolkit.key_binding.vi_state', 'prompt_toolkit.validation', 'prompt_toolkit.input', 'prompt_toolkit.input.base', 'prompt_toolkit.input.defaults', 'prompt_toolkit.input.typeahead', 'prompt_toolkit.key_binding.bindings', 'prompt_toolkit.key_binding.bindings.page_navigation', 'prompt_toolkit.key_binding.bindings.scroll', 'prompt_toolkit.key_binding.defaults', 'prompt_toolkit.key_binding.bindings.basic', 'prompt_toolkit.key_binding.key_processor', 'prompt_toolkit.key_binding.bindings.named_commands', 'prompt_toolkit.key_binding.bindings.completion', 'prompt_toolkit.key_binding.bindings.emacs', 'prompt_toolkit.key_binding.bindings.vi', 'prompt_toolkit.input.vt100_parser', 'prompt_toolkit.input.ansi_escape_sequences', 'prompt_toolkit.key_binding.digraphs', 'prompt_toolkit.key_binding.bindings.mouse', 'prompt_toolkit.layout', 'prompt_toolkit.layout.containers', 'prompt_toolkit.layout.controls', 'prompt_toolkit.formatted_text', 'prompt_toolkit.formatted_text.base', 'prompt_toolkit.formatted_text.html', 'xml', 'xml.dom', 'xml.dom.domreg', 'xml.dom.minidom', 'xml.dom.minicompat', 'xml.dom.xmlbuilder', 'xml.dom.NodeFilter', 'prompt_toolkit.formatted_text.ansi', 'prompt_toolkit.output', 'prompt_toolkit.output.base', 'prompt_toolkit.layout.screen', 'prompt_toolkit.output.defaults', 'prompt_toolkit.output.color_depth', 'prompt_toolkit.output.vt100', 'prompt_toolkit.styles', 'prompt_toolkit.styles.base', 'prompt_toolkit.styles.defaults', 'prompt_toolkit.styles.style', 'prompt_toolkit.styles.named_colors', 'prompt_toolkit.styles.pygments', 'prompt_toolkit.styles.style_transformation', 'colorsys', 'prompt_toolkit.formatted_text.pygments', 'prompt_toolkit.formatted_text.utils', 'prompt_toolkit.lexers', 'prompt_toolkit.lexers.base', 'prompt_toolkit.lexers.pygments', 'prompt_toolkit.mouse_events', 'prompt_toolkit.layout.processors', 'prompt_toolkit.layout.utils', 'prompt_toolkit.layout.dimension', 'prompt_toolkit.layout.margins', 'prompt_toolkit.layout.layout', 'prompt_toolkit.layout.menus', 'prompt_toolkit.renderer', 'prompt_toolkit.layout.mouse_handlers', 'prompt_toolkit.key_binding.bindings.cpr', 'prompt_toolkit.key_binding.emacs_state', 'prompt_toolkit.layout.dummy', 'prompt_toolkit.application.dummy', 'prompt_toolkit.shortcuts', 'prompt_toolkit.shortcuts.dialogs', 'prompt_toolkit.key_binding.bindings.focus', 'prompt_toolkit.widgets', 'prompt_toolkit.widgets.base', 'prompt_toolkit.widgets.toolbars', 'prompt_toolkit.widgets.dialogs', 'prompt_toolkit.widgets.menus', 'prompt_toolkit.shortcuts.prompt', 'prompt_toolkit.key_binding.bindings.auto_suggest', 'prompt_toolkit.key_binding.bindings.open_in_editor', 'prompt_toolkit.shortcuts.utils', 'prompt_toolkit.shortcuts.progress_bar', 'prompt_toolkit.shortcuts.progress_bar.base', 'prompt_toolkit.shortcuts.progress_bar.formatters', 'prompt_toolkit.patch_stdout', 'pygments.style', 'IPython.terminal.debugger', 'IPython.core.completer', 'unicodedata', 'IPython.core.latex_symbols', 'IPython.utils.generics', 'jedi', 'jedi.api', 'parso', 'parso.parser', 'parso.tree', 'parso._compatibility', 'parso.utils', 'parso.pgen2', 'parso.pgen2.generator', 'parso.pgen2.grammar_parser', 'parso.python', 'parso.python.tokenize', 'parso.python.token', 'parso.grammar', 'parso.python.diff', 'difflib', 'parso.python.parser', 'parso.python.tree', 'parso.python.prefix', 'parso.cache', 'gc', 'parso.python.errors', 'parso.normalizer', 'parso.python.pep8', 'jedi._compatibility', 'jedi.parser_utils', 'jedi.debug', 'jedi.settings', 'jedi.cache', 'jedi.api.classes', 'jedi.evaluate', 'jedi.evaluate.utils', 'jedi.evaluate.imports', 'jedi.evaluate.sys_path', 'jedi.evaluate.cache', 'jedi.evaluate.base_context', 'jedi.common', 'jedi.common.context', 'jedi.evaluate.helpers', 'jedi.common.utils', 'jedi.evaluate.compiled', 'jedi.evaluate.compiled.context', 'jedi.evaluate.filters', 'jedi.evaluate.flow_analysis', 'jedi.evaluate.recursion', 'jedi.evaluate.lazy_context', 'jedi.evaluate.compiled.access', 'jedi.evaluate.compiled.getattr_static', 'jedi.evaluate.compiled.fake', 'jedi.evaluate.analysis', 'jedi.evaluate.context', 'jedi.evaluate.context.module', 'jedi.evaluate.context.klass', 'jedi.evaluate.context.function', 'jedi.evaluate.docstrings', 'jedi.evaluate.pep0484', 'jedi.evaluate.arguments', 'jedi.evaluate.context.iterable', 'jedi.evaluate.param', 'jedi.evaluate.context.asynchronous', 'jedi.evaluate.parser_cache', 'jedi.evaluate.context.instance', 'jedi.evaluate.syntax_tree', 'jedi.evaluate.finder', 'jedi.api.keywords', 'pydoc_data', 'pydoc_data.topics', 'jedi.api.interpreter', 'jedi.evaluate.compiled.mixed', 'jedi.api.helpers', 'jedi.api.completion', 'jedi.api.environment', 'filecmp', 'jedi.evaluate.compiled.subprocess', 'jedi.evaluate.compiled.subprocess.functions', 'jedi.api.exceptions', 'jedi.api.project', 'jedi.evaluate.usages', 'IPython.terminal.ptutils', 'IPython.terminal.shortcuts', 'IPython.terminal.magics', 'IPython.lib.clipboard', 'IPython.terminal.pt_inputhooks', 'IPython.terminal.prompts', 'IPython.terminal.ipapp', 'IPython.core.magics', 'IPython.core.magics.auto', 'IPython.core.magics.basic', 'IPython.core.magics.code', 'urllib.request', 'email', 'http', 'http.client', 'email.parser', 'email.feedparser', 'email.errors', 'email._policybase', 'email.header', 'email.quoprimime', 'email.base64mime', 'email.charset', 'email.encoders', 'quopri', 'email.utils', 'email._parseaddr', 'calendar', 'email.message', 'uu', 'email._encoded_words', 'email.iterators', 'urllib.error', 'urllib.response', 'IPython.core.magics.config', 'IPython.core.magics.display', 'IPython.core.magics.execution', 'timeit', 'cProfile', '_lsprof', 'profile', 'optparse', 'pstats', 'IPython.utils.module_paths', 'IPython.utils.timing', 'IPython.core.magics.extension', 'IPython.core.magics.history', 'IPython.core.magics.logging', 'IPython.core.magics.namespace', 'IPython.core.magics.osm', 'IPython.core.magics.packaging', 'IPython.core.magics.pylab', 'IPython.core.pylabtools', 'IPython.core.magics.script', 'IPython.lib.backgroundjobs', 'IPython.core.shellapp', 'IPython.extensions', 'IPython.extensions.storemagic', 'IPython.utils.frame', 'jupyter_client', 'jupyter_client._version', 'jupyter_client.connect', 'zmq', 'ctypes', '_ctypes', 'ctypes._endian', 'zmq.backend', 'zmq.backend.select', 'zmq.backend.cython', 'zmq.backend.cython.constants', 'cython_runtime', 'zmq.backend.cython.error', '_cython_0_29_5', 'zmq.backend.cython.message', 'zmq.error', 'zmq.backend.cython.context', 'zmq.backend.cython.socket', 'zmq.backend.cython.utils', 'zmq.backend.cython._poll', 'zmq.backend.cython._version', 'zmq.backend.cython._device', 'zmq.backend.cython._proxy_steerable', 'zmq.sugar', 'zmq.sugar.constants', 'zmq.utils', 'zmq.utils.constant_names', 'zmq.sugar.context', 'zmq.sugar.attrsettr', 'zmq.sugar.socket', 'zmq.sugar.poll', 'zmq.utils.jsonapi', 'zmq.utils.strtypes', 'zmq.sugar.frame', 'zmq.sugar.tracker', 'zmq.sugar.version', 'zmq.sugar.stopwatch', 'jupyter_client.localinterfaces', 'jupyter_core', 'jupyter_core.version', 'jupyter_core.paths', 'jupyter_client.launcher', 'traitlets.log', 'jupyter_client.client', 'jupyter_client.channels', 'jupyter_client.channelsabc', 'jupyter_client.clientabc', 'jupyter_client.manager', 'jupyter_client.kernelspec', 'jupyter_client.managerabc', 'jupyter_client.blocking', 'jupyter_client.blocking.client', 'jupyter_client.blocking.channels', 'jupyter_client.multikernelmanager', 'uuid', 'ctypes.util', 'ipykernel.kernelapp', 'tornado', 'tornado.ioloop', 'numbers', 'tornado.concurrent', 'tornado.log', 'logging.handlers', 'tornado.escape', 'tornado.util', 'tornado.speedups', 'curses', '_curses', 'zmq.eventloop', 'zmq.eventloop.ioloop', 'tornado.platform', 'tornado.platform.asyncio', 'tornado.gen', 'zmq.eventloop.zmqstream', 'ipykernel.iostream', 'imp', 'jupyter_client.session', 'hmac', 'jupyter_client.jsonutil', 'dateutil', 'dateutil._version', 'dateutil.parser', 'dateutil.parser._parser', 'decimal', '_decimal', 'dateutil.relativedelta', 'dateutil._common', 'dateutil.tz', 'dateutil.tz.tz', 'dateutil.tz._common', 'dateutil.tz._factories', 'dateutil.parser.isoparser', '_strptime', 'jupyter_client.adapter', 'ipykernel.heartbeat', 'ipykernel.ipkernel', 'IPython.utils.tokenutil', 'ipykernel.comm', 'ipykernel.comm.manager', 'ipykernel.comm.comm', 'ipykernel.kernelbase', 'tornado.queues', 'tornado.locks', 'ipykernel.jsonutil', 'ipykernel.zmqshell', 'IPython.core.payloadpage', 'ipykernel.displayhook', 'ipykernel.parentpoller', 'faulthandler', 'ipykernel.datapub', 'ipykernel.serialize', 'ipykernel.pickleutil', 'ipykernel.codeutil', 'IPython.core.completerlib', 'storemagic', 'ampligraph', 'logging.config', 'socketserver', 'pkg_resources', 'zipfile', 'plistlib', 'xml.parsers', 'xml.parsers.expat', 'pyexpat.errors', 'pyexpat.model', 'pyexpat', 'xml.parsers.expat.model', 'xml.parsers.expat.errors', 'pkg_resources.extern', 'pkg_resources._vendor', 'pkg_resources.extern.six', 'pkg_resources._vendor.six', 'pkg_resources.extern.six.moves', 'pkg_resources._vendor.six.moves', 'pkg_resources.py31compat', 'pkg_resources.extern.appdirs', 'pkg_resources._vendor.packaging.__about__', 'pkg_resources.extern.packaging', 'pkg_resources.extern.packaging.version', 'pkg_resources.extern.packaging._structures', 'pkg_resources.extern.packaging.specifiers', 'pkg_resources.extern.packaging._compat', 'pkg_resources.extern.packaging.requirements', 'pkg_resources.extern.pyparsing', 'pkg_resources.extern.six.moves.urllib', 'pkg_resources.extern.packaging.markers', 'configparser', 'ampligraph.datasets', 'ampligraph.datasets.datasets', 'pandas', 'numpy', 'numpy._globals', 'numpy.__config__', 'numpy.version', 'numpy._distributor_init', 'numpy.core', 'numpy.core.info', 'numpy.core.multiarray', 'numpy.core.overrides', 'numpy.core._multiarray_umath', 'numpy.compat', 'numpy.compat._inspect', 'numpy.compat.py3k', 'numpy.core.umath', 'numpy.core.numerictypes', 'numpy.core._string_helpers', 'numpy.core._type_aliases', 'numpy.core._dtype', 'numpy.core.numeric', 'numpy.core._internal', 'numpy.core.fromnumeric', 'numpy.core._methods', 'numpy.core.arrayprint', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core.machar', 'numpy.core.getlimits', 'numpy.core.shape_base', 'numpy.core.einsumfunc', 'numpy.core._add_newdocs', 'numpy.core._multiarray_tests', 'numpy.core._dtype_ctypes', 'numpy._pytesttester', 'numpy.lib', 'numpy.lib.info', 'numpy.lib.type_check', 'numpy.lib.ufunclike', 'numpy.lib.index_tricks', 'numpy.matrixlib', 'numpy.matrixlib.defmatrix', 'numpy.linalg', 'numpy.linalg.info', 'numpy.linalg.linalg', 'numpy.lib.twodim_base', 'numpy.linalg.lapack_lite', 'numpy.linalg._umath_linalg', 'numpy.lib.function_base', 'numpy.lib.utils', 'numpy.lib.histograms', 'numpy.lib.stride_tricks', 'numpy.lib.mixins', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.scimath', 'numpy.lib.polynomial', 'numpy.lib.arraysetops', 'numpy.lib.npyio', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.financial', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.fft', 'numpy.fft.info', 'numpy.fft.fftpack', 'numpy.fft.fftpack_lite', 'numpy.fft.helper', 'numpy.polynomial', 'numpy.polynomial.polynomial', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.random', 'numpy.random.mtrand', 'mtrand', 'numpy.ctypeslib', 'numpy.ma', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.testing', 'unittest', 'unittest.result', 'unittest.util', 'unittest.case', 'unittest.suite', 'unittest.loader', 'unittest.main', 'unittest.runner', 'unittest.signals', 'numpy.testing._private', 'numpy.testing._private.utils', 'numpy.testing._private.decorators', 'numpy.testing._private.nosetester', 'pytz', 'pytz.exceptions', 'pytz.lazy', 'pytz.tzinfo', 'pytz.tzfile', 'pandas.compat', 'distutils', 'distutils.version', 'pandas.compat.chainmap', 'pandas.compat.numpy', 'pandas._libs', 'pandas._libs.tslibs', 'pandas._libs.tslibs.conversion', '_cython_0_28_2', 'pandas._libs.tslibs.nattype', 'pandas._libs.tslibs.np_datetime', 'pandas._libs.tslibs.timedeltas', 'pandas._libs.tslibs.offsets', 'pandas._libs.tslibs.ccalendar', 'pandas._libs.tslibs.strptime', 'pandas._libs.tslibs.timezones', 'pandas._libs.tslibs.parsing', 'pandas._libs.tslibs.period', 'pandas._libs.tslibs.frequencies', 'pandas._libs.tslibs.timestamps', 'pandas._libs.tslibs.fields', 'pandas._libs.tslibs.resolution', 'pandas._libs.hashtable', 'pandas._libs.missing', 'pandas._libs.lib', 'fractions', 'pandas._libs.tslib', 'pandas.core', 'pandas.core.config_init', 'pandas.core.config', 'pandas.io', 'pandas.io.formats', 'pandas.io.formats.printing', 'pandas.core.dtypes', 'pandas.core.dtypes.inference', 'pandas.io.formats.console', 'pandas.io.formats.terminal', 'pandas.core.api', 'pandas.core.arrays', 'pandas.core.arrays.array_', 'pandas.core.dtypes.common', 'pandas._libs.algos', 'pandas.core.dtypes.dtypes', 'pandas._libs.interval', 'pandas.core.dtypes.generic', 'pandas.core.dtypes.base', 'pandas.errors', 'pandas.core.arrays.base', 'pandas.compat.numpy.function', 'pandas.util', 'pandas.util._decorators', 'pandas._libs.properties', 'pandas.core.util', 'pandas.core.util.hashing', 'pandas._libs.hashing', 'pandas.core.dtypes.cast', 'pandas.core.dtypes.missing', 'pandas.util._validators', 'pandas.core.ops', 'pandas._libs.ops', 'pandas.core.common', 'pandas.core.missing', 'pandas.core.arrays.categorical', 'pandas.core.accessor', 'pandas.core.algorithms', 'pandas.core.base', 'pandas.core.nanops', 'pandas.tseries', 'pandas.tseries.offsets', 'dateutil.easter', 'pandas.core.tools', 'pandas.core.tools.datetimes', 'pandas.core.sorting', 'pandas.core.arrays.datetimes', 'pandas.core.arrays.datetimelike', 'pandas.tseries.frequencies', 'pandas.core.arrays._ranges', 'pandas.core.arrays.interval', 'pandas.util._doctools', 'pandas.core.indexes', 'pandas.core.indexes.base', 'pandas._libs.index', 'pandas._libs.join', 'pandas.core.dtypes.concat', 'pandas.core.indexes.frozen', 'pandas.core.strings', 'pandas.core.arrays.period', 'pandas.core.arrays.timedeltas', 'pandas.core.arrays.integer', 'pandas.core.tools.numeric', 'pandas.core.arrays.sparse', 'pandas._libs.sparse', 'pandas.core.arrays.numpy_', 'pandas.core.groupby', 'pandas.core.groupby.groupby', 'pandas._libs.groupby', 'pandas.core.frame', 'pandas.core.generic', 'pandas.core.index', 'pandas.core.indexes.api', 'pandas.core.indexes.category', 'pandas.core.indexes.datetimes', 'pandas.core.indexes.datetimelike', 'pandas.core.tools.timedeltas', 'pandas.core.indexes.numeric', 'pandas.core.indexes.interval', 'pandas.util._exceptions', 'pandas.core.indexes.multi', 'pandas.core.indexes.timedeltas', 'pandas.core.indexes.period', 'pandas.core.indexes.range', 'pandas.core.indexing', 'pandas._libs.indexing', 'pandas.core.internals', 'pandas.core.internals.blocks', 'pandas._libs.internals', 'pandas.core.internals.arrays', 'pandas.core.internals.managers', 'pandas.core.internals.concat', 'pandas.io.formats.format', 'pandas.io.common', 'csv', '_csv', 'mmap', 'pandas.core.internals.construction', 'pandas.core.series', 'pandas.core.indexes.accessors', 'pandas.plotting', 'pandas.plotting._misc', 'pandas.plotting._style', 'pandas.plotting._tools', 'pandas.plotting._core', 'pandas.plotting._compat', 'pandas.plotting._converter', 'matplotlib', 'matplotlib.cbook', 'gzip', 'matplotlib.cbook.deprecation', 'matplotlib.rcsetup', 'matplotlib.fontconfig_pattern', 'pyparsing', 'matplotlib.colors', 'matplotlib._color_data', 'cycler', 'matplotlib._version']
+2019-06-14 16:39:11,339 - rdflib - DEBUG - RDFLib Version: 4.2.2
+2019-06-14 16:42:33,937 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 16:42:33,938 - parso.python.diff - DEBUG - line_lengths old: 49; new: 49
+2019-06-14 16:42:33,938 - parso.python.diff - DEBUG - -> code[equal] old[1:48] new[1:48]
+2019-06-14 16:42:33,939 - parso.python.diff - DEBUG - parse_part from 1 to 3 (to 3 in part parser)
+2019-06-14 16:42:33,940 - parso.python.diff - DEBUG - parse_part from 4 to 4 (to 4 in part parser)
+2019-06-14 16:42:33,941 - parso.python.diff - DEBUG - copy old[5:15] new[5:15]
+2019-06-14 16:42:33,951 - parso.python.diff - DEBUG - parse_part from 16 to 49 (to 48 in part parser)
+2019-06-14 16:42:33,951 - parso.python.diff - DEBUG - -> code[replace] old[49:49] new[49:49]
+2019-06-14 16:42:33,951 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 16:42:35,745 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 16:42:35,746 - parso.python.diff - DEBUG - line_lengths old: 49; new: 49
+2019-06-14 16:42:35,746 - parso.python.diff - DEBUG - -> code[equal] old[1:48] new[1:48]
+2019-06-14 16:42:35,748 - parso.python.diff - DEBUG - parse_part from 1 to 3 (to 3 in part parser)
+2019-06-14 16:42:35,749 - parso.python.diff - DEBUG - copy old[4:15] new[4:15]
+2019-06-14 16:42:35,758 - parso.python.diff - DEBUG - parse_part from 16 to 49 (to 48 in part parser)
+2019-06-14 16:42:35,758 - parso.python.diff - DEBUG - -> code[replace] old[49:49] new[49:49]
+2019-06-14 16:42:35,758 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 16:42:50,358 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 16:42:50,359 - parso.python.diff - DEBUG - line_lengths old: 49; new: 49
+2019-06-14 16:42:50,359 - parso.python.diff - DEBUG - -> code[equal] old[1:48] new[1:48]
+2019-06-14 16:42:50,361 - parso.python.diff - DEBUG - parse_part from 1 to 3 (to 3 in part parser)
+2019-06-14 16:42:50,361 - parso.python.diff - DEBUG - copy old[4:15] new[4:15]
+2019-06-14 16:42:50,373 - parso.python.diff - DEBUG - parse_part from 16 to 49 (to 48 in part parser)
+2019-06-14 16:42:50,373 - parso.python.diff - DEBUG - -> code[replace] old[49:49] new[49:49]
+2019-06-14 16:42:50,373 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 16:44:15,924 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 16:44:15,924 - parso.python.diff - DEBUG - line_lengths old: 49; new: 5
+2019-06-14 16:44:15,924 - parso.python.diff - DEBUG - -> code[replace] old[1:49] new[1:5]
+2019-06-14 16:44:15,926 - parso.python.diff - DEBUG - parse_part from 1 to 5 (to 4 in part parser)
+2019-06-14 16:44:15,926 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 16:45:53,581 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 16:45:53,581 - parso.python.diff - DEBUG - line_lengths old: 5; new: 1
+2019-06-14 16:45:53,582 - parso.python.diff - DEBUG - -> code[replace] old[1:5] new[1:1]
+2019-06-14 16:45:53,583 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2019-06-14 16:45:53,584 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 16:45:53,643 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/rdflib/graph.py
+2019-06-14 16:45:53,694 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/IPython/core/interactiveshell.py
+2019-06-14 16:54:32,321 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 16:54:32,321 - parso.python.diff - DEBUG - line_lengths old: 1; new: 8
+2019-06-14 16:54:32,321 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:8]
+2019-06-14 16:54:32,325 - parso.python.diff - DEBUG - parse_part from 1 to 8 (to 7 in part parser)
+2019-06-14 16:54:32,325 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 16:54:51,886 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 16:54:51,886 - parso.python.diff - DEBUG - line_lengths old: 8; new: 35
+2019-06-14 16:54:51,886 - parso.python.diff - DEBUG - -> code[equal] old[1:7] new[1:7]
+2019-06-14 16:54:51,887 - parso.python.diff - DEBUG - copy old[3:7] new[1:6]
+2019-06-14 16:54:51,891 - parso.python.diff - DEBUG - parse_part from 7 to 15 (to 15 in part parser)
+2019-06-14 16:54:51,891 - parso.python.diff - DEBUG - -> code[replace] old[8:8] new[8:35]
+2019-06-14 16:54:51,897 - parso.python.diff - DEBUG - parse_part from 16 to 35 (to 34 in part parser)
+2019-06-14 16:54:51,897 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 16:56:47,413 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 16:56:47,414 - parso.python.diff - DEBUG - line_lengths old: 35; new: 53
+2019-06-14 16:56:47,414 - parso.python.diff - DEBUG - -> code[equal] old[1:13] new[1:13]
+2019-06-14 16:56:47,414 - parso.python.diff - DEBUG - copy old[3:34] new[1:6]
+2019-06-14 16:56:47,418 - parso.python.diff - DEBUG - parse_part from 7 to 14 (to 14 in part parser)
+2019-06-14 16:56:47,418 - parso.python.diff - DEBUG - -> code[delete] old[14:14] new[14:13]
+2019-06-14 16:56:47,418 - parso.python.diff - DEBUG - -> code[equal] old[15:17] new[14:16]
+2019-06-14 16:56:47,418 - parso.python.diff - DEBUG - copy old[17:17] new[15:16]
+2019-06-14 16:56:47,418 - parso.python.diff - DEBUG - -> code[replace] old[18:18] new[17:18]
+2019-06-14 16:56:47,427 - parso.python.diff - DEBUG - parse_part from 17 to 53 (to 52 in part parser)
+2019-06-14 16:56:47,427 - parso.python.diff - DEBUG - -> code[equal] old[19:19] new[19:19]
+2019-06-14 16:56:47,427 - parso.python.diff - DEBUG - -> code[delete] old[20:20] new[20:19]
+2019-06-14 16:56:47,427 - parso.python.diff - DEBUG - -> code[equal] old[21:27] new[20:26]
+2019-06-14 16:56:47,427 - parso.python.diff - DEBUG - -> code[delete] old[28:32] new[27:26]
+2019-06-14 16:56:47,427 - parso.python.diff - DEBUG - -> code[equal] old[33:34] new[27:28]
+2019-06-14 16:56:47,427 - parso.python.diff - DEBUG - -> code[replace] old[35:35] new[29:53]
+2019-06-14 16:56:47,427 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 16:56:56,132 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 16:56:56,132 - parso.python.diff - DEBUG - line_lengths old: 53; new: 56
+2019-06-14 16:56:56,133 - parso.python.diff - DEBUG - -> code[equal] old[1:52] new[1:52]
+2019-06-14 16:56:56,133 - parso.python.diff - DEBUG - copy old[3:52] new[1:16]
+2019-06-14 16:56:56,143 - parso.python.diff - DEBUG - parse_part from 17 to 56 (to 55 in part parser)
+2019-06-14 16:56:56,143 - parso.python.diff - DEBUG - -> code[replace] old[53:53] new[53:56]
+2019-06-14 16:56:56,143 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 16:57:27,722 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 16:57:27,722 - parso.python.diff - DEBUG - line_lengths old: 56; new: 2
+2019-06-14 16:57:27,722 - parso.python.diff - DEBUG - -> code[replace] old[1:56] new[1:2]
+2019-06-14 16:57:27,724 - parso.python.diff - DEBUG - parse_part from 1 to 3 (to 1 in part parser)
+2019-06-14 16:57:27,724 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 16:57:27,775 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/ampligraph/latent_features/models.py
+2019-06-14 16:57:27,804 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/rdflib/namespace.py
+2019-06-14 16:57:27,837 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/rdflib/term.py
+2019-06-14 16:57:27,853 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/jedi/api/interpreter.py
+2019-06-14 16:57:27,862 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/ampligraph/__init__.py
+2019-06-14 16:57:27,863 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/IPython/core/autocall.py
+2019-06-14 16:57:27,869 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/ampligraph/datasets/datasets.py
+2019-06-14 16:57:27,879 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/__init__.py
+2019-06-14 16:57:27,888 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/ampligraph/latent_features/model_utils.py
+2019-06-14 16:57:27,898 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py
+2019-06-14 16:57:28,010 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 16:57:28,010 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2019-06-14 16:57:28,011 - parso.python.diff - DEBUG - -> code[equal] old[1:1] new[1:1]
+2019-06-14 16:57:28,011 - parso.python.diff - DEBUG - copy old[1:1] new[1:1]
+2019-06-14 16:57:28,011 - parso.python.diff - DEBUG - -> code[replace] old[2:2] new[2:2]
+2019-06-14 16:57:28,012 - parso.python.diff - DEBUG - parse_part from 2 to 2 (to 1 in part parser)
+2019-06-14 16:57:28,012 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 16:59:49,519 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 16:59:49,520 - parso.python.diff - DEBUG - line_lengths old: 2; new: 3
+2019-06-14 16:59:49,520 - parso.python.diff - DEBUG - -> code[replace] old[1:2] new[1:3]
+2019-06-14 16:59:49,521 - parso.python.diff - DEBUG - parse_part from 1 to 3 (to 2 in part parser)
+2019-06-14 16:59:49,521 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:00:24,245 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:00:24,245 - parso.python.diff - DEBUG - line_lengths old: 3; new: 2
+2019-06-14 17:00:24,245 - parso.python.diff - DEBUG - -> code[equal] old[1:1] new[1:1]
+2019-06-14 17:00:24,246 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-14 17:00:24,246 - parso.python.diff - DEBUG - -> code[replace] old[2:3] new[2:2]
+2019-06-14 17:00:24,246 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:00:25,618 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:00:25,618 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2019-06-14 17:00:25,618 - parso.python.diff - DEBUG - -> code[equal] old[1:1] new[1:1]
+2019-06-14 17:00:25,619 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-14 17:00:25,619 - parso.python.diff - DEBUG - -> code[replace] old[2:2] new[2:2]
+2019-06-14 17:00:25,619 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:03:20,020 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:03:20,020 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2019-06-14 17:03:20,020 - parso.python.diff - DEBUG - -> code[replace] old[1:2] new[1:2]
+2019-06-14 17:03:20,022 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-14 17:03:20,022 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:03:25,490 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:03:25,490 - parso.python.diff - DEBUG - line_lengths old: 2; new: 3
+2019-06-14 17:03:25,490 - parso.python.diff - DEBUG - -> code[equal] old[1:1] new[1:1]
+2019-06-14 17:03:25,491 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 2 in part parser)
+2019-06-14 17:03:25,492 - parso.python.diff - DEBUG - -> code[replace] old[2:2] new[2:3]
+2019-06-14 17:03:25,493 - parso.python.diff - DEBUG - parse_part from 3 to 3 (to 2 in part parser)
+2019-06-14 17:03:25,493 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:09:53,403 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:09:53,403 - parso.python.diff - DEBUG - line_lengths old: 3; new: 3
+2019-06-14 17:09:53,404 - parso.python.diff - DEBUG - -> code[replace] old[1:3] new[1:3]
+2019-06-14 17:09:53,405 - parso.python.diff - DEBUG - parse_part from 1 to 3 (to 2 in part parser)
+2019-06-14 17:09:53,406 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:09:57,945 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:09:57,946 - parso.python.diff - DEBUG - line_lengths old: 3; new: 4
+2019-06-14 17:09:57,946 - parso.python.diff - DEBUG - -> code[equal] old[1:2] new[1:2]
+2019-06-14 17:09:57,946 - parso.python.diff - DEBUG - copy old[2:2] new[1:2]
+2019-06-14 17:09:57,947 - parso.python.diff - DEBUG - -> code[replace] old[3:3] new[3:4]
+2019-06-14 17:09:57,948 - parso.python.diff - DEBUG - parse_part from 3 to 4 (to 3 in part parser)
+2019-06-14 17:09:57,949 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:10:27,602 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:10:27,602 - parso.python.diff - DEBUG - line_lengths old: 4; new: 1
+2019-06-14 17:10:27,603 - parso.python.diff - DEBUG - -> code[replace] old[1:4] new[1:1]
+2019-06-14 17:10:27,603 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2019-06-14 17:10:27,603 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:10:42,875 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:10:42,875 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2019-06-14 17:10:42,876 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2019-06-14 17:10:42,876 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2019-06-14 17:10:42,876 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:11:03,537 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:11:03,537 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2019-06-14 17:11:03,538 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2019-06-14 17:11:03,538 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2019-06-14 17:11:03,539 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:15:17,721 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:15:17,721 - parso.python.diff - DEBUG - line_lengths old: 1; new: 2
+2019-06-14 17:15:17,721 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:2]
+2019-06-14 17:15:17,722 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-14 17:15:17,723 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:15:22,970 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:15:22,970 - parso.python.diff - DEBUG - line_lengths old: 2; new: 3
+2019-06-14 17:15:22,970 - parso.python.diff - DEBUG - -> code[equal] old[1:1] new[1:1]
+2019-06-14 17:15:22,972 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 2 in part parser)
+2019-06-14 17:15:22,972 - parso.python.diff - DEBUG - -> code[replace] old[2:2] new[2:3]
+2019-06-14 17:15:22,972 - parso.python.diff - DEBUG - parse_part from 3 to 3 (to 2 in part parser)
+2019-06-14 17:15:22,973 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:15:26,729 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:15:26,729 - parso.python.diff - DEBUG - line_lengths old: 3; new: 3
+2019-06-14 17:15:26,729 - parso.python.diff - DEBUG - -> code[equal] old[1:2] new[1:2]
+2019-06-14 17:15:26,730 - parso.python.diff - DEBUG - copy old[2:2] new[1:2]
+2019-06-14 17:15:26,730 - parso.python.diff - DEBUG - -> code[replace] old[3:3] new[3:3]
+2019-06-14 17:15:26,731 - parso.python.diff - DEBUG - parse_part from 3 to 3 (to 2 in part parser)
+2019-06-14 17:15:26,731 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:15:26,757 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/core/shape_base.py
+2019-06-14 17:15:28,960 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:15:28,961 - parso.python.diff - DEBUG - line_lengths old: 3; new: 3
+2019-06-14 17:15:28,961 - parso.python.diff - DEBUG - -> code[equal] old[1:2] new[1:2]
+2019-06-14 17:15:28,961 - parso.python.diff - DEBUG - copy old[2:2] new[1:2]
+2019-06-14 17:15:28,961 - parso.python.diff - DEBUG - -> code[replace] old[3:3] new[3:3]
+2019-06-14 17:15:28,962 - parso.python.diff - DEBUG - parse_part from 3 to 3 (to 2 in part parser)
+2019-06-14 17:15:28,962 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:15:31,114 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:15:31,114 - parso.python.diff - DEBUG - line_lengths old: 3; new: 3
+2019-06-14 17:15:31,114 - parso.python.diff - DEBUG - -> code[equal] old[1:2] new[1:2]
+2019-06-14 17:15:31,114 - parso.python.diff - DEBUG - copy old[2:2] new[1:2]
+2019-06-14 17:15:31,114 - parso.python.diff - DEBUG - -> code[replace] old[3:3] new[3:3]
+2019-06-14 17:15:31,117 - parso.python.diff - DEBUG - parse_part from 3 to 3 (to 2 in part parser)
+2019-06-14 17:15:31,118 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:15:34,904 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:15:34,905 - parso.python.diff - DEBUG - line_lengths old: 3; new: 4
+2019-06-14 17:15:34,905 - parso.python.diff - DEBUG - -> code[equal] old[1:2] new[1:2]
+2019-06-14 17:15:34,905 - parso.python.diff - DEBUG - copy old[2:2] new[1:2]
+2019-06-14 17:15:34,905 - parso.python.diff - DEBUG - -> code[replace] old[3:3] new[3:4]
+2019-06-14 17:15:34,908 - parso.python.diff - DEBUG - parse_part from 3 to 4 (to 3 in part parser)
+2019-06-14 17:15:34,909 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:17:23,528 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:17:23,528 - parso.python.diff - DEBUG - line_lengths old: 4; new: 2
+2019-06-14 17:17:23,528 - parso.python.diff - DEBUG - -> code[replace] old[1:4] new[1:2]
+2019-06-14 17:17:23,529 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-14 17:17:23,530 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:18:21,642 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:18:21,642 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2019-06-14 17:18:21,643 - parso.python.diff - DEBUG - -> code[equal] old[1:1] new[1:1]
+2019-06-14 17:18:21,644 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-14 17:18:21,645 - parso.python.diff - DEBUG - -> code[replace] old[2:2] new[2:2]
+2019-06-14 17:18:21,645 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:18:31,574 - ampligraph.evaluation.protocol - DEBUG - Creating train test split.
+2019-06-14 17:18:31,662 - ampligraph.evaluation.protocol - DEBUG - Selecting test cases using random search.
+2019-06-14 17:18:31,737 - ampligraph.evaluation.protocol - DEBUG - Completed random search.
+2019-06-14 17:18:31,739 - ampligraph.evaluation.protocol - DEBUG - Train test split completed.
+2019-06-14 17:24:12,336 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:24:12,337 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2019-06-14 17:24:12,337 - parso.python.diff - DEBUG - -> code[replace] old[1:2] new[1:2]
+2019-06-14 17:24:12,338 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-14 17:24:12,338 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:24:13,728 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:24:13,729 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2019-06-14 17:24:13,729 - parso.python.diff - DEBUG - -> code[equal] old[1:1] new[1:1]
+2019-06-14 17:24:13,730 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-14 17:24:13,730 - parso.python.diff - DEBUG - -> code[replace] old[2:2] new[2:2]
+2019-06-14 17:24:13,730 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:24:14,788 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:24:14,788 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2019-06-14 17:24:14,788 - parso.python.diff - DEBUG - -> code[equal] old[1:1] new[1:1]
+2019-06-14 17:24:14,789 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-14 17:24:14,789 - parso.python.diff - DEBUG - -> code[replace] old[2:2] new[2:2]
+2019-06-14 17:24:14,790 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:24:17,923 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:24:17,923 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2019-06-14 17:24:17,923 - parso.python.diff - DEBUG - -> code[equal] old[1:1] new[1:1]
+2019-06-14 17:24:17,923 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-14 17:24:17,923 - parso.python.diff - DEBUG - -> code[replace] old[2:2] new[2:2]
+2019-06-14 17:24:17,923 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:24:20,162 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:24:20,163 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2019-06-14 17:24:20,163 - parso.python.diff - DEBUG - -> code[equal] old[1:1] new[1:1]
+2019-06-14 17:24:20,164 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-14 17:24:20,164 - parso.python.diff - DEBUG - -> code[replace] old[2:2] new[2:2]
+2019-06-14 17:24:20,164 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:24:20,197 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/rdflib/plugins/memory.py
+2019-06-14 17:25:40,782 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:25:40,783 - parso.python.diff - DEBUG - line_lengths old: 2; new: 1
+2019-06-14 17:25:40,783 - parso.python.diff - DEBUG - -> code[replace] old[1:2] new[1:1]
+2019-06-14 17:25:40,783 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2019-06-14 17:25:40,783 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:26:36,791 - ampligraph.datasets.datasets - DEBUG - Loading rdf ntriples from trainGraphExplicit.nt.
+2019-06-14 17:26:36,792 - ampligraph.datasets.datasets - DEBUG - data_home is set to /home/mondeca/ampligraph_datasets
+2019-06-14 17:27:04,886 - ampligraph.datasets.datasets - DEBUG - Loading rdf ntriples from trainGraphExplicit.nt.
+2019-06-14 17:27:04,886 - ampligraph.datasets.datasets - DEBUG - data_home is set to /home/mondeca/ampligraph_datasets
+2019-06-14 17:27:18,646 - ampligraph.datasets.datasets - DEBUG - Loading rdf ntriples from trainGraphExplicit.nt.
+2019-06-14 17:27:18,646 - ampligraph.datasets.datasets - DEBUG - data_home is set to /home/mondeca/ampligraph_datasets
+2019-06-14 17:31:49,629 - ampligraph.datasets.datasets - DEBUG - Loading rdf ntriples from trainGraphExplicit.nt.
+2019-06-14 17:31:49,630 - ampligraph.datasets.datasets - DEBUG - data_home is set to /home/mondeca/ampligraph_datasets
+2019-06-14 17:37:07,254 - ampligraph.datasets.datasets - DEBUG - Loading rdf ntriples from trainGraphExplicit.nt.
+2019-06-14 17:37:07,254 - ampligraph.datasets.datasets - DEBUG - data_home is set to /home/mondeca/ampligraph_datasets
+2019-06-14 17:38:06,939 - ampligraph.datasets.datasets - DEBUG - Loading rdf ntriples from trainGraphExplicit.nt.
+2019-06-14 17:38:06,940 - ampligraph.datasets.datasets - DEBUG - data_home is set to /home/mondeca/ampligraph_datasets
+2019-06-14 17:41:29,788 - ampligraph.datasets.datasets - DEBUG - Loading rdf ntriples from trainGraphExplicit.nt.
+2019-06-14 17:41:29,788 - ampligraph.datasets.datasets - DEBUG - data_home is set to /home/mondeca/ampligraph_datasets
+2019-06-14 17:42:21,674 - ampligraph.datasets.datasets - DEBUG - Loading rdf ntriples from trainGraphExplicit.nt.
+2019-06-14 17:42:21,674 - ampligraph.datasets.datasets - DEBUG - data_home is set to /home/mondeca/ampligraph_datasets
+2019-06-14 17:42:30,510 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:42:30,510 - parso.python.diff - DEBUG - line_lengths old: 1; new: 12
+2019-06-14 17:42:30,510 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:12]
+2019-06-14 17:42:30,512 - parso.python.diff - DEBUG - parse_part from 1 to 12 (to 11 in part parser)
+2019-06-14 17:42:30,512 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:42:30,586 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/core/__init__.py
+2019-06-14 17:42:30,631 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/core/numeric.py
+2019-06-14 17:42:30,656 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/core/umath.py
+2019-06-14 17:42:30,876 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/core/numerictypes.py
+2019-06-14 17:42:30,923 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/core/fromnumeric.py
+2019-06-14 17:42:30,954 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/core/arrayprint.py
+2019-06-14 17:42:30,974 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/core/records.py
+2019-06-14 17:42:30,987 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/core/memmap.py
+2019-06-14 17:42:31,004 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/core/function_base.py
+2019-06-14 17:42:31,024 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/core/machar.py
+2019-06-14 17:42:31,033 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/core/getlimits.py
+2019-06-14 17:42:31,046 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/core/einsumfunc.py
+2019-06-14 17:42:31,069 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/__init__.py
+2019-06-14 17:42:31,101 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/type_check.py
+2019-06-14 17:42:31,115 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/index_tricks.py
+2019-06-14 17:42:31,212 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/function_base.py
+2019-06-14 17:42:31,219 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/mixins.py
+2019-06-14 17:42:31,256 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/nanfunctions.py
+2019-06-14 17:42:31,274 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/shape_base.py
+2019-06-14 17:42:31,301 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/stride_tricks.py
+2019-06-14 17:42:31,317 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/twodim_base.py
+2019-06-14 17:42:31,323 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/ufunclike.py
+2019-06-14 17:42:31,347 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/histograms.py
+2019-06-14 17:42:31,377 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/polynomial.py
+2019-06-14 17:42:31,392 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/utils.py
+2019-06-14 17:42:31,399 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/arraysetops.py
+2019-06-14 17:42:31,455 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/npyio.py
+2019-06-14 17:42:31,481 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/financial.py
+2019-06-14 17:42:32,397 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/arraypad.py
+2019-06-14 17:42:32,411 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/lib/_version.py
+2019-06-14 17:42:32,432 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/matrixlib/__init__.py
+2019-06-14 17:42:32,445 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/matrixlib/defmatrix.py
+2019-06-14 17:42:32,560 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/os.py
+2019-06-14 17:42:32,616 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/ntpath.py
+2019-06-14 17:42:32,641 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/posixpath.py
+2019-06-14 17:42:32,679 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/genericpath.py
+2019-06-14 17:42:32,695 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/stat.py
+2019-06-14 17:42:32,823 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/core/overrides.py
+2019-06-14 17:42:34,282 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:42:34,282 - parso.python.diff - DEBUG - line_lengths old: 12; new: 12
+2019-06-14 17:42:34,283 - parso.python.diff - DEBUG - -> code[equal] old[1:11] new[1:11]
+2019-06-14 17:42:34,283 - parso.python.diff - DEBUG - copy old[1:10] new[1:10]
+2019-06-14 17:42:34,285 - parso.python.diff - DEBUG - parse_part from 11 to 12 (to 11 in part parser)
+2019-06-14 17:42:34,285 - parso.python.diff - DEBUG - -> code[replace] old[12:12] new[12:12]
+2019-06-14 17:42:34,285 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:42:34,314 - parso.cache - DEBUG - pickle loaded: /home/mondeca/.local/lib/python3.6/site-packages/numpy/random/__init__.py
+2019-06-14 17:43:18,764 - ampligraph.datasets.datasets - DEBUG - Loading rdf ntriples from trainGraphExplicit.nt.
+2019-06-14 17:43:18,764 - ampligraph.datasets.datasets - DEBUG - data_home is set to /home/mondeca/ampligraph_datasets
+2019-06-14 17:43:56,627 - ampligraph.datasets.datasets - DEBUG - Loading rdf ntriples from trainGraphExplicit.nt.
+2019-06-14 17:43:56,627 - ampligraph.datasets.datasets - DEBUG - data_home is set to /home/mondeca/ampligraph_datasets
+2019-06-14 17:44:34,822 - ampligraph.datasets.datasets - DEBUG - Loading rdf ntriples from trainGraphExplicit.nt.
+2019-06-14 17:44:34,823 - ampligraph.datasets.datasets - DEBUG - data_home is set to /home/mondeca/ampligraph_datasets
+2019-06-14 17:45:16,490 - ampligraph.datasets.datasets - DEBUG - Loading rdf ntriples from trainGraphExplicit.nt.
+2019-06-14 17:45:16,491 - ampligraph.datasets.datasets - DEBUG - data_home is set to /home/mondeca/ampligraph_datasets
+2019-06-14 17:45:32,374 - ampligraph.evaluation.protocol - DEBUG - Creating train test split.
+2019-06-14 17:45:32,432 - ampligraph.evaluation.protocol - DEBUG - Selecting test cases using random search.
+2019-06-14 17:45:32,485 - ampligraph.evaluation.protocol - DEBUG - Completed random search.
+2019-06-14 17:45:32,488 - ampligraph.evaluation.protocol - DEBUG - Train test split completed.
+2019-06-14 17:46:25,485 - parso.python.diff - DEBUG - diff parser start
+2019-06-14 17:46:25,485 - parso.python.diff - DEBUG - line_lengths old: 12; new: 2
+2019-06-14 17:46:25,485 - parso.python.diff - DEBUG - -> code[replace] old[1:12] new[1:2]
+2019-06-14 17:46:25,486 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-14 17:46:25,486 - parso.python.diff - DEBUG - diff parser end
+2019-06-14 17:47:11,970 - ampligraph.evaluation.protocol - DEBUG - Creating mappings for entities and relations.
+2019-06-14 17:47:12,027 - ampligraph.evaluation.protocol - DEBUG - Converting statements to integer ids.
+2019-06-14 17:47:12,037 - ampligraph.evaluation.protocol - DEBUG - Returning ids.
+2019-06-14 17:47:12,567 - tensorflow - WARNING - From /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-06-14 17:47:12,586 - ampligraph.latent_features.models - INFO - Using all entities for generation of corruptions
+2019-06-14 17:47:12,587 - ampligraph.evaluation.protocol - DEBUG - Generating corruptions for fit.
+2019-06-14 17:47:12,612 - ampligraph.evaluation.protocol - DEBUG - Created corruption masks.
+2019-06-14 17:47:12,625 - ampligraph.evaluation.protocol - DEBUG - Created corrupted subjects.
+2019-06-14 17:47:12,627 - ampligraph.evaluation.protocol - DEBUG - Retained relationships.
+2019-06-14 17:47:12,631 - ampligraph.evaluation.protocol - DEBUG - Created corrupted objects.
+2019-06-14 17:47:12,640 - ampligraph.evaluation.protocol - DEBUG - Returning corruptions for fit.
+2019-06-14 17:47:12,640 - ampligraph.latent_features.models - DEBUG - Requires the same size of postive and negative
+2019-06-14 17:47:12,681 - ampligraph.latent_features.loss_functions - DEBUG - Creating dependencies before loss computations.
+2019-06-14 17:47:12,829 - tensorflow - WARNING - From /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-06-14 17:49:06,252 - ampligraph.evaluation.protocol - DEBUG - Creating mappings for entities and relations.
+2019-06-14 17:49:06,318 - ampligraph.evaluation.protocol - DEBUG - Converting statements to integer ids.
+2019-06-14 17:49:06,325 - ampligraph.evaluation.protocol - DEBUG - Returning ids.
+2019-06-14 17:49:06,357 - ampligraph.latent_features.models - INFO - Using all entities for generation of corruptions
+2019-06-14 17:49:06,358 - ampligraph.evaluation.protocol - DEBUG - Generating corruptions for fit.
+2019-06-14 17:49:06,381 - ampligraph.evaluation.protocol - DEBUG - Created corruption masks.
+2019-06-14 17:49:06,392 - ampligraph.evaluation.protocol - DEBUG - Created corrupted subjects.
+2019-06-14 17:49:06,395 - ampligraph.evaluation.protocol - DEBUG - Retained relationships.
+2019-06-14 17:49:06,399 - ampligraph.evaluation.protocol - DEBUG - Created corrupted objects.
+2019-06-14 17:49:06,401 - ampligraph.evaluation.protocol - DEBUG - Returning corruptions for fit.
+2019-06-14 17:49:06,401 - ampligraph.latent_features.models - DEBUG - Requires the same size of postive and negative
+2019-06-14 17:49:06,441 - ampligraph.latent_features.loss_functions - DEBUG - Creating dependencies before loss computations.
+2019-06-14 17:50:44,894 - ampligraph.latent_features.model_utils - DEBUG - Saving model TransE.
+2019-06-14 17:50:44,895 - ampligraph.latent_features.model_utils - DEBUG - Creating path to ./ampligraphModels/TransE_150_200_1.
+2019-06-14 17:50:44,895 - ampligraph.latent_features.model_utils - DEBUG - Saving parameters: hyperparams:{'k': 150, 'eta': 1, 'epochs': 200, 'batches_count': 10, 'seed': 0, 'embedding_model_params': {'norm': 1, 'normalize_ent_emb': False, 'negative_corruption_entities': 'all'}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'loss': 'pairwise', 'loss_params': {'margin': 0.5}, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 1e-05}, 'verbose': False}
+	is_fitted:True
+2019-06-14 17:50:44,905 - ampligraph.evaluation.protocol - DEBUG - Creating mappings for entities and relations.
+2019-06-14 17:50:44,960 - ampligraph.evaluation.protocol - DEBUG - Converting statements to integer ids.
+2019-06-14 17:50:44,969 - ampligraph.evaluation.protocol - DEBUG - Returning ids.
+2019-06-14 17:50:45,003 - ampligraph.latent_features.models - INFO - Using all entities for generation of corruptions
+2019-06-14 17:50:45,004 - ampligraph.evaluation.protocol - DEBUG - Generating corruptions for fit.
+2019-06-14 17:50:45,022 - ampligraph.evaluation.protocol - DEBUG - Created corruption masks.
+2019-06-14 17:50:45,034 - ampligraph.evaluation.protocol - DEBUG - Created corrupted subjects.
+2019-06-14 17:50:45,037 - ampligraph.evaluation.protocol - DEBUG - Retained relationships.
+2019-06-14 17:50:45,041 - ampligraph.evaluation.protocol - DEBUG - Created corrupted objects.
+2019-06-14 17:50:45,043 - ampligraph.evaluation.protocol - DEBUG - Returning corruptions for fit.
+2019-06-14 17:50:45,043 - ampligraph.latent_features.models - DEBUG - Requires the same size of postive and negative
+2019-06-14 17:50:45,082 - ampligraph.latent_features.loss_functions - DEBUG - Creating dependencies before loss computations.
+2019-06-14 17:52:22,637 - ampligraph.latent_features.model_utils - DEBUG - Saving model DistMult.
+2019-06-14 17:52:22,637 - ampligraph.latent_features.model_utils - DEBUG - Creating path to ./ampligraphModels/DistMult_150_200_1.
+2019-06-14 17:52:22,638 - ampligraph.latent_features.model_utils - DEBUG - Saving parameters: hyperparams:{'k': 150, 'eta': 1, 'epochs': 200, 'batches_count': 10, 'seed': 0, 'embedding_model_params': {'normalize_ent_emb': False, 'negative_corruption_entities': 'all'}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'loss': 'pairwise', 'loss_params': {'margin': 0.5}, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 1e-05}, 'verbose': False}
+	is_fitted:True
+2019-06-14 17:52:22,648 - ampligraph.evaluation.protocol - DEBUG - Creating mappings for entities and relations.
+2019-06-14 17:52:22,699 - ampligraph.evaluation.protocol - DEBUG - Converting statements to integer ids.
+2019-06-14 17:52:22,707 - ampligraph.evaluation.protocol - DEBUG - Returning ids.
+2019-06-14 17:52:22,737 - ampligraph.latent_features.models - INFO - Using all entities for generation of corruptions
+2019-06-14 17:52:22,738 - ampligraph.evaluation.protocol - DEBUG - Generating corruptions for fit.
+2019-06-14 17:52:22,757 - ampligraph.evaluation.protocol - DEBUG - Created corruption masks.
+2019-06-14 17:52:22,767 - ampligraph.evaluation.protocol - DEBUG - Created corrupted subjects.
+2019-06-14 17:52:22,770 - ampligraph.evaluation.protocol - DEBUG - Retained relationships.
+2019-06-14 17:52:22,774 - ampligraph.evaluation.protocol - DEBUG - Created corrupted objects.
+2019-06-14 17:52:22,776 - ampligraph.evaluation.protocol - DEBUG - Returning corruptions for fit.
+2019-06-14 17:52:22,776 - ampligraph.latent_features.models - DEBUG - Requires the same size of postive and negative
+2019-06-14 17:52:22,840 - ampligraph.latent_features.loss_functions - DEBUG - Creating dependencies before loss computations.
+2019-06-14 17:56:19,457 - ampligraph.latent_features.model_utils - DEBUG - Saving model HolE.
+2019-06-14 17:56:19,457 - ampligraph.latent_features.model_utils - DEBUG - Creating path to ./ampligraphModels/HolE_150_200_1.
+2019-06-14 17:56:19,457 - ampligraph.latent_features.model_utils - DEBUG - Saving parameters: hyperparams:{'k': 150, 'eta': 1, 'epochs': 200, 'batches_count': 10, 'seed': 0, 'embedding_model_params': {'negative_corruption_entities': 'all'}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'loss': 'pairwise', 'loss_params': {'margin': 0.5}, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 1e-05}, 'verbose': False}
+	is_fitted:True
+2019-06-14 17:56:19,474 - ampligraph.evaluation.protocol - DEBUG - Creating mappings for entities and relations.
+2019-06-14 17:56:19,525 - ampligraph.evaluation.protocol - DEBUG - Converting statements to integer ids.
+2019-06-14 17:56:19,533 - ampligraph.evaluation.protocol - DEBUG - Returning ids.
+2019-06-14 17:56:19,563 - ampligraph.latent_features.models - INFO - Using all entities for generation of corruptions
+2019-06-14 17:56:19,564 - ampligraph.evaluation.protocol - DEBUG - Generating corruptions for fit.
+2019-06-14 17:56:19,584 - ampligraph.evaluation.protocol - DEBUG - Created corruption masks.
+2019-06-14 17:56:19,594 - ampligraph.evaluation.protocol - DEBUG - Created corrupted subjects.
+2019-06-14 17:56:19,596 - ampligraph.evaluation.protocol - DEBUG - Retained relationships.
+2019-06-14 17:56:19,600 - ampligraph.evaluation.protocol - DEBUG - Created corrupted objects.
+2019-06-14 17:56:19,602 - ampligraph.evaluation.protocol - DEBUG - Returning corruptions for fit.
+2019-06-14 17:56:19,602 - ampligraph.latent_features.models - DEBUG - Requires the same size of postive and negative
+2019-06-14 17:56:19,667 - ampligraph.latent_features.loss_functions - DEBUG - Creating dependencies before loss computations.
+2019-06-14 18:00:16,603 - ampligraph.latent_features.model_utils - DEBUG - Saving model ComplEx.
+2019-06-14 18:00:16,604 - ampligraph.latent_features.model_utils - DEBUG - Creating path to ./ampligraphModels/ComplEx_150_200_1.
+2019-06-14 18:00:16,604 - ampligraph.latent_features.model_utils - DEBUG - Saving parameters: hyperparams:{'k': 150, 'eta': 1, 'epochs': 200, 'batches_count': 10, 'seed': 0, 'embedding_model_params': {'negative_corruption_entities': 'all'}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'loss': 'pairwise', 'loss_params': {'margin': 0.5}, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 1e-05}, 'verbose': False}
+	is_fitted:True
+2019-06-14 18:09:00,735 - pykeen.utilities.pipeline - INFO - -------------Train KG Embeddings-------------
+2019-06-14 18:09:00,738 - pykeen.utilities.train_utils - DEBUG - ****running model on cpu****
+2019-06-14 20:33:17,137 - pykeen.utilities.train_utils - DEBUG - training took 8656.40s seconds
+2019-06-14 20:33:23,087 - matplotlib - DEBUG - CACHEDIR=/home/mondeca/.cache/matplotlib
+2019-06-14 20:33:23,092 - matplotlib.font_manager - DEBUG - Using fontManager instance from /home/mondeca/.cache/matplotlib/fontlist-v300.json
+2019-06-14 20:33:23,323 - matplotlib.pyplot - DEBUG - Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+2019-06-14 20:33:23,326 - matplotlib.pyplot - DEBUG - Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+2019-06-14 20:33:23,421 - matplotlib.axes._base - DEBUG - update_title_pos
+2019-06-14 20:33:23,554 - matplotlib.font_manager - DEBUG - findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-06-14 20:33:23,677 - matplotlib.font_manager - DEBUG - findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-06-14 20:33:23,709 - matplotlib.axes._base - DEBUG - update_title_pos
+2019-06-14 20:33:23,742 - matplotlib.axes._base - DEBUG - update_title_pos
+2019-06-14 20:33:23,760 - matplotlib.axes._base - DEBUG - update_title_pos
+2019-06-14 20:33:23,874 - matplotlib.pyplot - DEBUG - Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+2019-06-17 10:31:29,933 - matplotlib.pyplot - DEBUG - Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+2019-06-17 10:36:29,986 - ampligraph.latent_features.model_utils - DEBUG - Loading model from ./dev/ampligraphModels/HolE_150_200_1.
+2019-06-17 10:36:30,342 - ampligraph.latent_features.model_utils - DEBUG - Restoring model.
+2019-06-17 10:36:33,657 - ampligraph.latent_features.model_utils - DEBUG - Loading model from ./dev/ampligraphModels/ComplEx_150_200_1.
+2019-06-17 10:36:33,826 - ampligraph.latent_features.model_utils - DEBUG - Restoring model.
+2019-06-17 10:36:33,827 - ampligraph.latent_features.model_utils - DEBUG - Loading model from ./dev/ampligraphModels/TransE_150_200_1.
+2019-06-17 10:36:33,933 - ampligraph.latent_features.model_utils - DEBUG - Restoring model.
+2019-06-17 10:36:33,933 - ampligraph.latent_features.model_utils - DEBUG - Loading model from ./dev/ampligraphModels/DistMult_150_200_1.
+2019-06-17 10:36:34,017 - ampligraph.latent_features.model_utils - DEBUG - Restoring model.
+2019-06-17 10:39:37,042 - ampligraph.latent_features.model_utils - DEBUG - Loading model from ./dev/ampligraphModels/HolE_150_200_1.
+2019-06-17 10:39:37,053 - ampligraph.latent_features.model_utils - DEBUG - Restoring model.
+2019-06-17 10:39:37,053 - ampligraph.latent_features.model_utils - DEBUG - Loading model from ./dev/ampligraphModels/ComplEx_150_200_1.
+2019-06-17 10:39:37,068 - ampligraph.latent_features.model_utils - DEBUG - Restoring model.
+2019-06-17 10:39:37,068 - ampligraph.latent_features.model_utils - DEBUG - Loading model from ./dev/ampligraphModels/TransE_150_200_1.
+2019-06-17 10:39:37,075 - ampligraph.latent_features.model_utils - DEBUG - Restoring model.
+2019-06-17 10:39:37,075 - ampligraph.latent_features.model_utils - DEBUG - Loading model from ./dev/ampligraphModels/DistMult_150_200_1.
+2019-06-17 10:39:37,083 - ampligraph.latent_features.model_utils - DEBUG - Restoring model.
+2019-06-17 10:39:37,083 - gensim.utils - INFO - loading Word2VecKeyedVectors object from ./dev/RDF2VECModels/RDF2Vec_sg_WalksData-2_300_10_8_1neg_wv
+2019-06-17 10:39:37,084 - smart_open.smart_open_lib - DEBUG - {'kw': {}, 'mode': 'rb', 'uri': './dev/RDF2VECModels/RDF2Vec_sg_WalksData-2_300_10_8_1neg_wv'}
+2019-06-17 10:39:37,200 - gensim.utils - INFO - setting ignored attribute vectors_norm to None
+2019-06-17 10:39:37,202 - gensim.utils - INFO - loaded ./dev/RDF2VECModels/RDF2Vec_sg_WalksData-2_300_10_8_1neg_wv
+2019-06-17 10:39:37,202 - gensim.utils - INFO - loading Word2VecKeyedVectors object from ./dev/RDF2VECModels/RDF2Vec_sg_WalksData-2_150_10_8_10neg_wv
+2019-06-17 10:39:37,203 - smart_open.smart_open_lib - DEBUG - {'kw': {}, 'mode': 'rb', 'uri': './dev/RDF2VECModels/RDF2Vec_sg_WalksData-2_150_10_8_10neg_wv'}
+2019-06-17 10:39:37,271 - gensim.utils - INFO - setting ignored attribute vectors_norm to None
+2019-06-17 10:39:37,272 - gensim.utils - INFO - loaded ./dev/RDF2VECModels/RDF2Vec_sg_WalksData-2_150_10_8_10neg_wv
+2019-06-17 10:39:37,273 - gensim.utils - INFO - loading Word2VecKeyedVectors object from ./dev/RDF2VECModels/RDF2Vec_sg_WalksData-2_300_10_8_10neg_wv
+2019-06-17 10:39:37,274 - smart_open.smart_open_lib - DEBUG - {'kw': {}, 'mode': 'rb', 'uri': './dev/RDF2VECModels/RDF2Vec_sg_WalksData-2_300_10_8_10neg_wv'}
+2019-06-17 10:39:37,390 - gensim.utils - INFO - setting ignored attribute vectors_norm to None
+2019-06-17 10:39:37,391 - gensim.utils - INFO - loaded ./dev/RDF2VECModels/RDF2Vec_sg_WalksData-2_300_10_8_10neg_wv
+2019-06-17 10:39:37,392 - gensim.utils - INFO - loading Word2VecKeyedVectors object from ./dev/RDF2VECModels/RDF2Vec_sg_WalksData-2_150_10_8_1neg_wv
+2019-06-17 10:39:37,392 - smart_open.smart_open_lib - DEBUG - {'kw': {}, 'mode': 'rb', 'uri': './dev/RDF2VECModels/RDF2Vec_sg_WalksData-2_150_10_8_1neg_wv'}
+2019-06-17 10:39:37,462 - gensim.utils - INFO - setting ignored attribute vectors_norm to None
+2019-06-17 10:39:37,463 - gensim.utils - INFO - loaded ./dev/RDF2VECModels/RDF2Vec_sg_WalksData-2_150_10_8_1neg_wv
+2019-06-17 10:39:37,464 - gensim.utils - INFO - loading Word2VecKeyedVectors object from ./dev/RDF2VECModels/RDF2Vec_sg_WalksData_300_200_8_wv
+2019-06-17 10:39:37,465 - smart_open.smart_open_lib - DEBUG - {'kw': {}, 'mode': 'rb', 'uri': './dev/RDF2VECModels/RDF2Vec_sg_WalksData_300_200_8_wv'}
+2019-06-17 10:39:37,661 - gensim.utils - INFO - setting ignored attribute vectors_norm to None
+2019-06-17 10:39:37,662 - gensim.utils - INFO - loaded ./dev/RDF2VECModels/RDF2Vec_sg_WalksData_300_200_8_wv
+2019-06-17 10:49:12,824 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 10:49:12,839 - parso.python.diff - DEBUG - line_lengths old: 4; new: 2
+2019-06-17 10:49:12,840 - parso.python.diff - DEBUG - -> code[replace] old[1:4] new[1:2]
+2019-06-17 10:49:12,841 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-17 10:49:12,842 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 10:49:12,943 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/sklearn/ensemble/forest.py
+2019-06-17 10:49:12,986 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/jedi/__init__.py
+2019-06-17 10:49:40,828 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 10:49:40,829 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2019-06-17 10:49:40,829 - parso.python.diff - DEBUG - -> code[equal] old[1:1] new[1:1]
+2019-06-17 10:49:40,832 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-17 10:49:40,832 - parso.python.diff - DEBUG - -> code[replace] old[2:2] new[2:2]
+2019-06-17 10:49:40,832 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:23:00,942 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:23:00,958 - parso.python.diff - DEBUG - line_lengths old: 2; new: 1
+2019-06-17 11:23:00,958 - parso.python.diff - DEBUG - -> code[replace] old[1:2] new[1:1]
+2019-06-17 11:23:00,959 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2019-06-17 11:23:00,959 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:23:03,727 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:23:03,727 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2019-06-17 11:23:03,727 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2019-06-17 11:23:03,728 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2019-06-17 11:23:03,729 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:27:13,680 - ampligraph.datasets.datasets - DEBUG - Loading rdf ntriples from testGraphExplicit.nt.
+2019-06-17 11:27:13,681 - ampligraph.datasets.datasets - DEBUG - data_home is set to /home/mondeca/ampligraph_datasets
+2019-06-17 11:27:24,177 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:27:24,178 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2019-06-17 11:27:24,178 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2019-06-17 11:27:24,179 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2019-06-17 11:27:24,179 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:27:55,048 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:27:55,049 - parso.python.diff - DEBUG - line_lengths old: 1; new: 10
+2019-06-17 11:27:55,049 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:10]
+2019-06-17 11:27:55,054 - parso.python.diff - DEBUG - parse_part from 1 to 10 (to 9 in part parser)
+2019-06-17 11:27:55,054 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:27:58,472 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:27:58,473 - parso.python.diff - DEBUG - line_lengths old: 10; new: 11
+2019-06-17 11:27:58,473 - parso.python.diff - DEBUG - -> code[equal] old[1:9] new[1:9]
+2019-06-17 11:27:58,473 - parso.python.diff - DEBUG - copy old[2:8] new[1:8]
+2019-06-17 11:27:58,475 - parso.python.diff - DEBUG - parse_part from 9 to 10 (to 10 in part parser)
+2019-06-17 11:27:58,475 - parso.python.diff - DEBUG - -> code[replace] old[10:10] new[10:11]
+2019-06-17 11:27:58,476 - parso.python.diff - DEBUG - parse_part from 11 to 11 (to 10 in part parser)
+2019-06-17 11:27:58,476 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:28:10,413 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:28:10,413 - parso.python.diff - DEBUG - line_lengths old: 11; new: 11
+2019-06-17 11:28:10,413 - parso.python.diff - DEBUG - -> code[equal] old[1:10] new[1:10]
+2019-06-17 11:28:10,414 - parso.python.diff - DEBUG - copy old[2:10] new[1:10]
+2019-06-17 11:28:10,414 - parso.python.diff - DEBUG - -> code[replace] old[11:11] new[11:11]
+2019-06-17 11:28:10,415 - parso.python.diff - DEBUG - parse_part from 11 to 11 (to 10 in part parser)
+2019-06-17 11:28:10,415 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:28:18,181 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:28:18,181 - parso.python.diff - DEBUG - line_lengths old: 11; new: 2
+2019-06-17 11:28:18,181 - parso.python.diff - DEBUG - -> code[replace] old[1:11] new[1:2]
+2019-06-17 11:28:18,182 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-17 11:28:18,182 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:28:20,002 - ampligraph.datasets.datasets - DEBUG - Loading rdf ntriples from testGraphExplicit.nt.
+2019-06-17 11:28:20,002 - ampligraph.datasets.datasets - DEBUG - data_home is set to /home/mondeca/ampligraph_datasets
+2019-06-17 11:28:23,884 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:28:23,885 - parso.python.diff - DEBUG - line_lengths old: 2; new: 11
+2019-06-17 11:28:23,885 - parso.python.diff - DEBUG - -> code[replace] old[1:2] new[1:11]
+2019-06-17 11:28:23,889 - parso.python.diff - DEBUG - parse_part from 1 to 11 (to 10 in part parser)
+2019-06-17 11:28:23,889 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:28:25,559 - ampligraph.evaluation.protocol - DEBUG - Creating train test split.
+2019-06-17 11:28:25,619 - ampligraph.evaluation.protocol - DEBUG - Selecting test cases using random search.
+2019-06-17 11:28:25,669 - ampligraph.evaluation.protocol - DEBUG - Completed random search.
+2019-06-17 11:28:25,672 - ampligraph.evaluation.protocol - DEBUG - Train test split completed.
+2019-06-17 11:29:41,768 - matplotlib.pyplot - DEBUG - Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+2019-06-17 11:38:44,889 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:38:44,889 - parso.python.diff - DEBUG - line_lengths old: 11; new: 1
+2019-06-17 11:38:44,890 - parso.python.diff - DEBUG - -> code[replace] old[1:11] new[1:1]
+2019-06-17 11:38:44,890 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2019-06-17 11:38:44,890 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:39:54,364 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:39:54,447 - parso.python.diff - DEBUG - line_lengths old: 1; new: 51
+2019-06-17 11:39:54,447 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:51]
+2019-06-17 11:39:54,462 - parso.python.diff - DEBUG - parse_part from 1 to 51 (to 50 in part parser)
+2019-06-17 11:39:54,463 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:40:23,103 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:40:23,104 - parso.python.diff - DEBUG - line_lengths old: 51; new: 61
+2019-06-17 11:40:23,104 - parso.python.diff - DEBUG - -> code[equal] old[1:50] new[1:50]
+2019-06-17 11:40:23,104 - parso.python.diff - DEBUG - copy old[3:50] new[1:17]
+2019-06-17 11:40:23,119 - parso.python.diff - DEBUG - parse_part from 18 to 61 (to 60 in part parser)
+2019-06-17 11:40:23,119 - parso.python.diff - DEBUG - -> code[replace] old[51:51] new[51:61]
+2019-06-17 11:40:23,119 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:40:47,765 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:40:47,766 - parso.python.diff - DEBUG - line_lengths old: 61; new: 2
+2019-06-17 11:40:47,766 - parso.python.diff - DEBUG - -> code[replace] old[1:61] new[1:2]
+2019-06-17 11:40:47,767 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-17 11:40:47,767 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:40:56,034 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:40:56,034 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2019-06-17 11:40:56,034 - parso.python.diff - DEBUG - -> code[replace] old[1:2] new[1:2]
+2019-06-17 11:40:56,035 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-17 11:40:56,035 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:40:57,270 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:40:57,270 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2019-06-17 11:40:57,271 - parso.python.diff - DEBUG - -> code[equal] old[1:1] new[1:1]
+2019-06-17 11:40:57,272 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-17 11:40:57,273 - parso.python.diff - DEBUG - -> code[replace] old[2:2] new[2:2]
+2019-06-17 11:40:57,273 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:40:57,439 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/ampligraph/evaluation/metrics.py
+2019-06-17 11:40:57,516 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/matplotlib/pyplot.py
+2019-06-17 11:40:57,560 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/random.py
+2019-06-17 11:40:57,580 - parso.cache - DEBUG - pickle loaded: /home/mondeca/applications/anaconda3/envs/ampligraph/lib/python3.6/site-packages/pykeen/run.py
+2019-06-17 11:40:59,443 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:40:59,443 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2019-06-17 11:40:59,443 - parso.python.diff - DEBUG - -> code[equal] old[1:1] new[1:1]
+2019-06-17 11:40:59,444 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2019-06-17 11:40:59,444 - parso.python.diff - DEBUG - -> code[replace] old[2:2] new[2:2]
+2019-06-17 11:40:59,445 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:41:06,810 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:41:06,810 - parso.python.diff - DEBUG - line_lengths old: 2; new: 1
+2019-06-17 11:41:06,810 - parso.python.diff - DEBUG - -> code[replace] old[1:2] new[1:1]
+2019-06-17 11:41:06,811 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2019-06-17 11:41:06,811 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:41:08,280 - parso.python.diff - DEBUG - diff parser start
+2019-06-17 11:41:08,281 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2019-06-17 11:41:08,281 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2019-06-17 11:41:08,281 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2019-06-17 11:41:08,281 - parso.python.diff - DEBUG - diff parser end
+2019-06-17 11:41:42,471 - ampligraph.datasets.datasets - DEBUG - Loading rdf ntriples from trainGraphExplicit.nt.
+2019-06-17 11:41:42,472 - ampligraph.datasets.datasets - DEBUG - data_home is set to /home/mondeca/ampligraph_datasets
+2019-06-17 11:42:24,242 - ampligraph.evaluation.protocol - DEBUG - Creating train test split.
+2019-06-17 11:42:24,304 - ampligraph.evaluation.protocol - DEBUG - Selecting test cases using random search.
+2019-06-17 11:42:24,357 - ampligraph.evaluation.protocol - DEBUG - Completed random search.
+2019-06-17 11:42:24,359 - ampligraph.evaluation.protocol - DEBUG - Train test split completed.
+2019-06-17 11:43:29,265 - gensim.utils - INFO - loading Word2VecKeyedVectors object from test/RDF2VECModels/RDF2Vec_sg_fulldata-2_300_10_8_wv
+2019-06-17 11:43:29,266 - smart_open.smart_open_lib - DEBUG - {'kw': {}, 'mode': 'rb', 'uri': 'test/RDF2VECModels/RDF2Vec_sg_fulldata-2_300_10_8_wv'}
+2019-06-17 11:43:29,815 - gensim.utils - INFO - setting ignored attribute vectors_norm to None
+2019-06-17 11:43:29,817 - gensim.utils - INFO - loaded test/RDF2VECModels/RDF2Vec_sg_fulldata-2_300_10_8_wv
+2019-06-17 11:43:29,817 - gensim.utils - INFO - loading Word2VecKeyedVectors object from test/RDF2VECModels/RDF2Vec_sg_fulldata-2_150_10_8_wv
+2019-06-17 11:43:29,818 - smart_open.smart_open_lib - DEBUG - {'kw': {}, 'mode': 'rb', 'uri': 'test/RDF2VECModels/RDF2Vec_sg_fulldata-2_150_10_8_wv'}
+2019-06-17 11:43:30,083 - gensim.utils - INFO - setting ignored attribute vectors_norm to None
+2019-06-17 11:43:30,084 - gensim.utils - INFO - loaded test/RDF2VECModels/RDF2Vec_sg_fulldata-2_150_10_8_wv
+2019-06-17 11:45:23,624 - gensim.utils - INFO - loading Word2VecKeyedVectors object from test/RDF2VECModels/RDF2Vec_sg_fulldata-2_300_10_8_wv
+2019-06-17 11:45:23,689 - smart_open.smart_open_lib - DEBUG - {'kw': {}, 'mode': 'rb', 'uri': 'test/RDF2VECModels/RDF2Vec_sg_fulldata-2_300_10_8_wv'}
+2019-06-17 11:45:24,966 - gensim.utils - INFO - setting ignored attribute vectors_norm to None
+2019-06-17 11:45:24,967 - gensim.utils - INFO - loaded test/RDF2VECModels/RDF2Vec_sg_fulldata-2_300_10_8_wv
+2019-06-17 11:45:24,968 - gensim.utils - INFO - loading Word2VecKeyedVectors object from test/RDF2VECModels/RDF2Vec_sg_fulldata-2_150_10_8_wv
+2019-06-17 11:45:24,969 - smart_open.smart_open_lib - DEBUG - {'kw': {}, 'mode': 'rb', 'uri': 'test/RDF2VECModels/RDF2Vec_sg_fulldata-2_150_10_8_wv'}
+2019-06-17 11:45:25,210 - gensim.utils - INFO - setting ignored attribute vectors_norm to None
+2019-06-17 11:45:25,212 - gensim.utils - INFO - loaded test/RDF2VECModels/RDF2Vec_sg_fulldata-2_150_10_8_wv
+2019-06-17 11:55:42,376 - ampligraph.datasets.datasets - DEBUG - Loading rdf ntriples from trainGraphExplicit.nt.
+2019-06-17 11:55:42,666 - ampligraph.datasets.datasets - DEBUG - data_home is set to /home/mondeca/ampligraph_datasets
+2019-06-17 11:55:46,774 - ampligraph.evaluation.protocol - DEBUG - Creating train test split.
+2019-06-17 11:55:46,874 - ampligraph.evaluation.protocol - DEBUG - Selecting test cases using random search.
+2019-06-17 11:55:47,090 - ampligraph.evaluation.protocol - DEBUG - Completed random search.
+2019-06-17 11:55:47,094 - ampligraph.evaluation.protocol - DEBUG - Train test split completed.
+2019-06-17 11:55:55,483 - gensim.utils - INFO - loading Word2VecKeyedVectors object from test/RDF2VECModels/RDF2Vec_sg_fulldata-2_300_10_8_wv
+2019-06-17 11:55:55,484 - smart_open.smart_open_lib - DEBUG - {'kw': {}, 'mode': 'rb', 'uri': 'test/RDF2VECModels/RDF2Vec_sg_fulldata-2_300_10_8_wv'}
+2019-06-17 11:55:56,104 - gensim.utils - INFO - setting ignored attribute vectors_norm to None
+2019-06-17 11:55:56,105 - gensim.utils - INFO - loaded test/RDF2VECModels/RDF2Vec_sg_fulldata-2_300_10_8_wv
+2019-06-17 11:55:56,106 - gensim.utils - INFO - loading Word2VecKeyedVectors object from test/RDF2VECModels/RDF2Vec_sg_fulldata-2_150_10_8_wv
+2019-06-17 11:55:56,107 - smart_open.smart_open_lib - DEBUG - {'kw': {}, 'mode': 'rb', 'uri': 'test/RDF2VECModels/RDF2Vec_sg_fulldata-2_150_10_8_wv'}
+2019-06-17 11:55:56,320 - gensim.utils - INFO - setting ignored attribute vectors_norm to None
+2019-06-17 11:55:56,322 - gensim.utils - INFO - loaded test/RDF2VECModels/RDF2Vec_sg_fulldata-2_150_10_8_wv
